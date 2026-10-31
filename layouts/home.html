@@ -1,0 +1,109 @@
+{{ define "main" }}
+
+<section class="hero">
+    <div class="container">
+
+        <div class="terminal-line">
+            <span>●</span> ~/reenze $ whoami
+        </div>
+
+        <div class="hero-content">
+            <div>
+                <div class="status">
+                    <span class="status-dot"></span>
+                    Currently learning
+                </div>
+
+                <h1>
+                    Hi, I'm <span>reenze</span>.
+                </h1>
+
+                <p class="hero-description">
+                    Information Security student at NARFU.
+                    Interested in programming, Linux and cybersecurity.
+                    Building my knowledge through practice and personal projects.
+                </p>
+
+                <div class="buttons">
+                    <a href="/projects/" class="button">Explore projects</a>
+                    <a href="/about/" class="button secondary">About me</a>
+                </div>
+            </div>
+
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span></span><span></span><span></span>
+                    <small>profile.sh</small>
+                </div>
+
+                <div class="terminal-body">
+                    <p><span>$</span> cat profile.txt</p>
+                    <p class="terminal-key">Name: <b>reenze</b></p>
+                    <p class="terminal-key">Education: <b>NARFU</b></p>
+                    <p class="terminal-key">Field: <b>Information Security</b></p>
+                    <p class="terminal-key">Focus: <b>Python, Linux</b></p>
+                    <p class="terminal-key">Status: <b>Learning</b></p>
+                    <p><span>$</span> <i class="cursor"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+
+        <div class="section-title">
+            <h2><span>01.</span> Areas of interest</h2>
+            <p>Technologies and fields I'm currently exploring.</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Python</h3>
+                <p>Learning programming fundamentals, solving problems and developing practical projects.</p>
+                <span class="tag">Python</span>
+                <span class="tag">Programming</span>
+            </div>
+
+            <div class="card">
+                <h3>Linux</h3>
+                <p>Working with Linux environments, command-line tools and Kali Linux.</p>
+                <span class="tag">Linux</span>
+                <span class="tag">Kali Linux</span>
+            </div>
+
+            <div class="card">
+                <h3>Bash</h3>
+                <p>Exploring shell commands, scripting and command-line automation.</p>
+                <span class="tag">Bash</span>
+                <span class="tag">CLI</span>
+            </div>
+
+            <div class="card">
+                <h3>Cybersecurity</h3>
+                <p>Building a foundation in information security through university studies and practical exercises.</p>
+                <span class="tag">InfoSec</span>
+                <span class="tag">Security</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-title">
+            <h2><span>02.</span> Explore</h2>
+            <p>More about my learning and work.</p>
+        </div>
+
+        <div class="buttons">
+            <a href="/projects/" class="button">Projects</a>
+            <a href="/university/" class="button secondary">NARFU</a>
+            <a href="/notes/" class="button secondary">Technical notes</a>
+            <a href="https://github.com/reenzqq" target="_blank" rel="noopener noreferrer" class="button secondary">GitHub ↗</a>
+        </div>
+    </div>
+</section>
+
+{{ end }}

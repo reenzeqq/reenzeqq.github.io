@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="container nav-container">
+
+        <a href="/" class="logo">
+            <span class="prompt">></span> reenze
+        </a>
+
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about/">About</a>
+            <a href="/projects/">Projects</a>
+            <a href="/ctf/">CTF</a>
+            <a href="/university/">University</a>
+            <a href="/notes/">Notes</a>
+        </nav>
+
+    </div>
+</header>
+
+<main>
+    {{ block "main" . }}{{ end }}
+</main>
+
+<footer>
+    <div class="container">
+        <span>© {{ now.Year }} reenze</span>
+        <span class="footer-terminal">security • python • linux</span>
+    </div>
+</footer>
+
+</body>
+</html>
