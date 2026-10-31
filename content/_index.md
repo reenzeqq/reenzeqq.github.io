@@ -1,14 +1,19 @@
+
 ---
 title: "Cybersecurity Portfolio"
 ---
-#Портфолио по Информационной Безопасности
 
-Я изучаю информационную безопасность, Python и Linux.
+# Cybersecurity Portfolio
 
-## Мои направления
-- CTF
-- Python прокеты
-- Практика в Linux
-- Университетские работы
-- Технические заметки
+I'm an Information Security student at **Northern (Arctic) Federal University (NARFU)**.
 
+I'm currently developing my skills in Python, Linux and information security through university studies, practical exercises and personal projects.
+
+## Areas of Interest
+
+- Python Programming
+- Linux and Kali Linux
+- Information Security
+- Computer Networking
+- University Projects
+- Technical Notes

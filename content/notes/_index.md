@@ -1,29 +1,30 @@
+
 ---
 title: "Notes"
 ---
 
 # Technical Notes
 
-A collection of notes and useful things I learn while studying programming, Linux and information security.
+A collection of technical notes, useful commands and concepts I learn while studying programming, Linux and information security.
 
 ## Topics
 
 ### Python
 
-Notes about Python syntax, programming concepts, standard libraries and things I learn while working through practical exercises.
+Python syntax, programming concepts, standard libraries and practical examples.
 
 ### Linux
 
-Useful Linux commands, system administration basics and things I learn while working in Linux environments.
+Linux commands, shell scripting, system administration basics and working with Kali Linux.
 
-### Bash
+### Networking
 
-Notes about shell commands, scripts and automation.
+Computer networking fundamentals, protocols, network configuration and troubleshooting.
 
 ### Information Security
 
-Notes about cybersecurity concepts, tools and techniques that I encounter during my studies.
+Cybersecurity concepts, security tools, practical techniques and notes from university studies.
 
 ---
 
-More notes will be added as I continue learning.
+More notes will be added as I gain knowledge and practical experience.
