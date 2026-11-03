@@ -17,6 +17,13 @@ body {
     overflow-x: hidden;
 }
 
+/* CONTAINER */
+
+.container {
+    width: min(1100px, 90%);
+    margin: 0 auto;
+}
+
 /* BACKGROUND */
 
 body::before {
